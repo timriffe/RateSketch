@@ -1,0 +1,10 @@
+Package: RateSketch
+Type: Package
+Title: a function for hand sketching demographic and other 2-d functions
+Version: 1.1
+Date: 2011-07-21
+Author: Tim Riffe
+Maintainer: Tim Riffe <tim.riffe@gmail.com>
+Description: The user specifies axes limits, whether to log the y axis, the desired x coordinated to interpolate at, and optionally another function to serve as a guide. Then click points to be interpolated. Out put includes the points clicked, and linear, loess and spline interpolations at the desired x values.
+License: General Public
+LazyLoad: yes

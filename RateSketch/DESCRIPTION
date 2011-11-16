@@ -1,7 +1,7 @@
 Package: RateSketch
 Type: Package
 Title: a function for hand sketching demographic and other 2-d functions
-Version: 1.1
+Version: 1.11
 Date: 2011-07-21
 Author: Tim Riffe
 Maintainer: Tim Riffe <tim.riffe@gmail.com>

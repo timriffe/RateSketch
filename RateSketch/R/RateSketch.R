@@ -4,8 +4,8 @@ function(xlim, ylim, xnew, log = FALSE, compare, span = .3){
 	BaseGrid <- function(xlim = c(0, 10), ylim = c(0, 10), log = FALSE, xat, yat, scipen = 0){
 		
 		# convert log to either "" or "y"
-		log <- ifelse(!log, "", log)
-		log <- ifelse(log, "y", log)
+		log <- ifelse(!log, "", "y")
+		#log <- ifelse(log, "y", log)
 		
 		if (log == "y" & ylim[1] == 0){
 			cat("\ncan't have 0 as a lower y axis limit. The function will assume you want to plot a \nmortality hazard and change the lower y limit to 0.00005\n")
